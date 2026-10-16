@@ -1,0 +1,44 @@
+# Secret / Internal Design Files (Do NOT push to GitHub)
+PROJECT_OVERVIEW.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Data and Raw Datasets (Too large for Git)
+data/
+*.csv
+*.dat
+*.zip
+*.tar.gz
+
+# Model Weights and Artifacts
+models/saved/
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Environment & Credentials
+.env
+.env.local
+*.pem
+*.key
+
+# Vector DB & Storage Volumes
+qdrant_storage/
+pgdata/
+redis_data/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
