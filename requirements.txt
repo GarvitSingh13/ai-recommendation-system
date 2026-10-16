@@ -9,7 +9,7 @@ joblib>=1.3.0
 sqlalchemy>=2.0.0
 psycopg2-binary>=2.9.9
 
-# Vector Database
+# Vector Database (Qdrant)
 qdrant-client>=1.8.0
 
 # Deep Learning (PyTorch)
@@ -17,6 +17,10 @@ torch>=2.0.0
 
 # Gradient Boosting & Ranking (Stage 2)
 lightgbm>=4.0.0
+
+# Real-Time Streaming & Caching
+redis>=5.0.0
+kafka-python-ng>=2.2.2
 
 # Environment configuration
 python-dotenv>=1.0.0
