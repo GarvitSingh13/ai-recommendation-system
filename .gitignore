@@ -25,6 +25,7 @@ models/saved/
 *.pth
 *.onnx
 *.bin
+*.pkl
 
 # Environment & Credentials
 .env
