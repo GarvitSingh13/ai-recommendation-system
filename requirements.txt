@@ -22,5 +22,9 @@ lightgbm>=4.0.0
 redis>=5.0.0
 kafka-python-ng>=2.2.2
 
+# Production Web API & Serving
+fastapi>=0.110.0
+uvicorn>=0.28.0
+
 # Environment configuration
 python-dotenv>=1.0.0
