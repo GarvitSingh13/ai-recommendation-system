@@ -34,6 +34,7 @@ models/saved/
 
 # Vector DB & Storage Volumes
 qdrant_storage/
+qdrant_data/
 pgdata/
 redis_data/
 
